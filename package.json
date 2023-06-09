@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "start": "APP_PORT=3010 nodemon --ignore ./src index.js",
     "preview": "vite preview"
   },
   "devDependencies": {
