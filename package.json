@@ -9,6 +9,7 @@
     "socket.io": "4.5.1"
   },
   "scripts": {
+    "serve": "node server.js",
     "build": "vite build",
     "start": "APP_PORT=3010 nodemon --ignore ./src index.js"
   },
