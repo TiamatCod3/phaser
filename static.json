@@ -1,6 +1,0 @@
-static.json{
-    "root": "./dist",
-    "routes": {
-      "/**": "index.html"
-    }
-  }
